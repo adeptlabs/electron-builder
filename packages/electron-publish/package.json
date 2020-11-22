@@ -1,5 +1,5 @@
 {
-  "name": "@maitham/electron-publish",
+  "name": "electron-publish",
   "version": "23.0.0",
   "main": "out/publisher.js",
   "author": "Vladimir Krivosheev",

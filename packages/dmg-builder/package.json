@@ -1,5 +1,5 @@
 {
-  "name": "@maitham/dmg-builder",
+  "name": "dmg-builder",
   "version": "23.0.0",
   "main": "out/dmgUtil.js",
   "author": "Vladimir Krivosheev",
