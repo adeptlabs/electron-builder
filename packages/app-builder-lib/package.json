@@ -1,5 +1,5 @@
 {
-  "name": "app-builder-lib",
+  "name": "@maitham/app-builder-lib",
   "description": "electron-builder lib",
   "version": "23.0.0",
   "main": "out/index.js",
@@ -49,12 +49,12 @@
     "@develar/schema-utils": "~2.6.5",
     "async-exit-hook": "^2.0.1",
     "bluebird-lst": "^1.0.9",
-    "builder-util": "workspace:*",
-    "builder-util-runtime": "workspace:*",
+    "@maitham/builder-util": "workspace:*",
+    "@maitham/builder-util-runtime": "workspace:*",
     "chromium-pickle-js": "^0.2.0",
     "debug": "^4.3.0",
     "ejs": "^3.1.5",
-    "electron-publish": "workspace:*",
+    "@maitham/electron-publish": "workspace:*",
     "fs-extra": "^9.0.1",
     "hosted-git-info": "^3.0.5",
     "is-ci": "^2.0.0",
@@ -96,8 +96,8 @@
     "@types/js-yaml": "^3.12.5",
     "@types/normalize-package-data": "^2.4.0",
     "@types/semver": "^7.3.4",
-    "dmg-builder": "workspace:*",
-    "electron-builder-squirrel-windows": "workspace:*"
+    "@maitham/dmg-builder": "workspace:*",
+    "@maitham/electron-builder-squirrel-windows": "workspace:*"
   },
   "//": "electron-builder-squirrel-windows and dmg-builder added as dev dep for tests (as otherwise `require` doesn't work using Yarn 2)",
   "typings": "./out/index.d.ts"

@@ -1,5 +1,5 @@
 {
-  "name": "dmg-builder",
+  "name": "@maitham/dmg-builder",
   "version": "23.0.0",
   "main": "out/dmgUtil.js",
   "author": "Vladimir Krivosheev",
@@ -16,8 +16,8 @@
     "registry": "https://npm.pkg.github.com/@maitham"
   },
   "dependencies": {
-    "app-builder-lib": "workspace:*",
-    "builder-util": "workspace:*",
+    "@maitham/app-builder-lib": "workspace:*",
+    "@maitham/builder-util": "workspace:*",
     "fs-extra": "^9.0.1",
     "iconv-lite": "^0.6.2",
     "js-yaml": "^3.14.0",

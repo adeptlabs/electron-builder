@@ -14,19 +14,19 @@
     "@types/js-yaml": "^3.12.5",
     "@types/node": "^14.11.2",
     "@types/semver": "^7.3.4",
-    "app-builder-lib": "workspace:*",
+    "@maitham/app-builder-lib": "workspace:*",
     "bluebird-lst": "^1.0.9",
-    "builder-util": "workspace:*",
-    "builder-util-runtime": "workspace:*",
+    "@maitham/builder-util": "workspace:*",
+    "@maitham/builder-util-runtime": "workspace:*",
     "chalk": "^4.1.0",
     "ci-info": "^2.0.0",
     "decompress-zip": "^0.2.2",
     "depcheck": "^1.2.0",
-    "dmg-builder": "workspace:*",
-    "electron-builder": "workspace:*",
-    "electron-builder-squirrel-windows": "workspace:*",
-    "electron-publish": "workspace:*",
-    "electron-updater": "workspace:*",
+    "@maitham/dmg-builder": "workspace:*",
+    "@maitham/electron-builder": "workspace:*",
+    "@maitham/electron-builder-squirrel-windows": "workspace:*",
+    "@maitham/electron-publish": "workspace:*",
+    "@maitham/electron-updater": "workspace:*",
     "fs-extra": "^9.0.1",
     "jest": "^26.4.2",
     "jest-junit": "^11.1.0",
@@ -53,5 +53,8 @@
     "setupFilesAfterEnv": [
       "<rootDir>/jestSetup.js"
     ]
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@maitham"
   }
 }
