@@ -14,6 +14,9 @@
   "engines": {
     "node": ">=8.12.0"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@maitham"
+  },
   "keywords": [
     "electron",
     "builder",
@@ -64,8 +67,5 @@
     "@types/fs-extra": "^9.0.1",
     "@types/is-ci": "^2.0.0"
   },
-  "typings": "./out/index.d.ts",
-  "publishConfig": {
-    "tag": "next"
-  }
+  "typings": "./out/index.d.ts"
 }

@@ -12,6 +12,9 @@
     "templates",
     "vendor"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@maitham"
+  },
   "dependencies": {
     "app-builder-lib": "workspace:*",
     "builder-util": "workspace:*",

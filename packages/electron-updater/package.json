@@ -27,6 +27,6 @@
   },
   "typings": "./out/main.d.ts",
   "publishConfig": {
-    "tag": "next"
+    "registry": "https://npm.pkg.github.com/@maitham"
   }
 }

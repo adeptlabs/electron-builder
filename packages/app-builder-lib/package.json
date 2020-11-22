@@ -10,6 +10,9 @@
     "electron-osx-sign",
     "certs/root_certs.keychain"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@maitham"
+  },
   "repository": "electron-userland/electron-builder",
   "engines": {
     "node": ">=8.12.0"

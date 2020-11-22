@@ -10,6 +10,9 @@
   "files": [
     "out"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@maitham"
+  },
   "engines": {
     "node": ">=8.2.5"
   },

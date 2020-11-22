@@ -25,5 +25,8 @@
   "optionalDependencies": {
     "7zip-bin": "~5.0.3"
   },
-  "types": "./out/SquirrelWindowsTarget.d.ts"
+  "types": "./out/SquirrelWindowsTarget.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@maitham"
+  }
 }

@@ -12,5 +12,8 @@
   ],
   "dependencies": {
     "app-builder-lib": "workspace:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@maitham"
   }
 }

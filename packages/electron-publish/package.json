@@ -20,5 +20,8 @@
     "lazy-val": "^1.0.4",
     "mime": "^2.4.6"
   },
-  "typings": "./out/publisher.d.ts"
+  "typings": "./out/publisher.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@maitham"
+  }
 }

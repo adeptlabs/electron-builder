@@ -10,6 +10,9 @@
   "files": [
     "out"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@maitham"
+  },
   "dependencies": {
     "7zip-bin": "~5.0.3",
     "@types/debug": "^4.1.5",
