@@ -1,5 +1,5 @@
 {
-  "name": "@maitham/builder-util",
+  "name": "@adeptlabs/builder-util",
   "version": "23.0.0",
   "main": "out/util.js",
   "author": "Vladimir Krivosheev",
@@ -11,15 +11,15 @@
     "out"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@maitham"
+    "registry": "https://npm.pkg.github.com/@adeptlabs"
   },
   "dependencies": {
     "7zip-bin": "~5.0.3",
     "@types/debug": "^4.1.5",
     "@types/fs-extra": "^9.0.1",
-    "@maitham/app-builder-bin": "3.5.10",
+    "@adeptlabs/app-builder-bin": "3.5.10",
     "bluebird-lst": "^1.0.9",
-    "@maitham/builder-util-runtime": "workspace:*",
+    "@adeptlabs/builder-util-runtime": "workspace:*",
     "chalk": "^4.1.0",
     "debug": "^4.2.0",
     "fs-extra": "^9.0.1",

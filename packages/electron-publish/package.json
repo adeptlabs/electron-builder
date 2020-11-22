@@ -1,5 +1,5 @@
 {
-  "name": "@maitham/electron-publish",
+  "name": "@adeptlabs/electron-publish",
   "version": "23.0.0",
   "main": "out/publisher.js",
   "author": "Vladimir Krivosheev",
@@ -13,8 +13,8 @@
   "dependencies": {
     "@types/fs-extra": "^9.0.1",
     "bluebird-lst": "^1.0.9",
-    "@maitham/builder-util": "workspace:*",
-    "@maitham/builder-util-runtime": "workspace:*",
+    "@adeptlabs/builder-util": "workspace:*",
+    "@adeptlabs/builder-util-runtime": "workspace:*",
     "chalk": "^4.1.0",
     "fs-extra": "^9.0.1",
     "lazy-val": "^1.0.4",
@@ -22,6 +22,6 @@
   },
   "typings": "./out/publisher.d.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@maitham"
+    "registry": "https://npm.pkg.github.com/@adeptlabs"
   }
 }

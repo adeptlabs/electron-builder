@@ -1,5 +1,5 @@
 {
-  "name": "@maitham/builder-util-runtime",
+  "name": "@adeptlabs/builder-util-runtime",
   "version": "8.7.2",
   "main": "out/index.js",
   "author": "Vladimir Krivosheev",
@@ -11,7 +11,7 @@
     "out"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@maitham"
+    "registry": "https://npm.pkg.github.com/@adeptlabs"
   },
   "engines": {
     "node": ">=8.2.5"

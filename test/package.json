@@ -14,19 +14,19 @@
     "@types/js-yaml": "^3.12.5",
     "@types/node": "^14.11.2",
     "@types/semver": "^7.3.4",
-    "@maitham/app-builder-lib": "workspace:*",
+    "@adeptlabs/app-builder-lib": "workspace:*",
     "bluebird-lst": "^1.0.9",
-    "@maitham/builder-util": "workspace:*",
-    "@maitham/builder-util-runtime": "workspace:*",
+    "@adeptlabs/builder-util": "workspace:*",
+    "@adeptlabs/builder-util-runtime": "workspace:*",
     "chalk": "^4.1.0",
     "ci-info": "^2.0.0",
     "decompress-zip": "^0.2.2",
     "depcheck": "^1.2.0",
-    "@maitham/dmg-builder": "workspace:*",
-    "@maitham/electron-builder": "workspace:*",
-    "@maitham/electron-builder-squirrel-windows": "workspace:*",
-    "@maitham/electron-publish": "workspace:*",
-    "@maitham/electron-updater": "workspace:*",
+    "@adeptlabs/dmg-builder": "workspace:*",
+    "@adeptlabs/electron-builder": "workspace:*",
+    "@adeptlabs/electron-builder-squirrel-windows": "workspace:*",
+    "@adeptlabs/electron-publish": "workspace:*",
+    "@adeptlabs/electron-updater": "workspace:*",
     "fs-extra": "^9.0.1",
     "jest": "^26.4.2",
     "jest-junit": "^11.1.0",
@@ -55,6 +55,6 @@
     ]
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@maitham"
+    "registry": "https://npm.pkg.github.com/@adeptlabs"
   }
 }

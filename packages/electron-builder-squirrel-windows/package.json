@@ -1,5 +1,5 @@
 {
-  "name": "@maitham/electron-builder-squirrel-windows",
+  "name": "@adeptlabs/electron-builder-squirrel-windows",
   "version": "23.0.0",
   "main": "out/SquirrelWindowsTarget.js",
   "author": "Vladimir Krivosheev",
@@ -11,10 +11,10 @@
     "out"
   ],
   "dependencies": {
-    "@maitham/app-builder-lib": "workspace:*",
+    "@adeptlabs/app-builder-lib": "workspace:*",
     "archiver": "^5.0.2",
     "bluebird-lst": "^1.0.9",
-    "@maitham/builder-util": "workspace:*",
+    "@adeptlabs/builder-util": "workspace:*",
     "fs-extra": "^9.0.1",
     "sanitize-filename": "^1.6.3"
   },
@@ -27,6 +27,6 @@
   },
   "types": "./out/SquirrelWindowsTarget.d.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@maitham"
+    "registry": "https://npm.pkg.github.com/@adeptlabs"
   }
 }

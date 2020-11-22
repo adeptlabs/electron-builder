@@ -1,5 +1,5 @@
 {
-  "name": "@maitham/electron-forge-maker-appimage",
+  "name": "@adeptlabs/electron-forge-maker-appimage",
   "version": "23.0.0",
   "main": "main.js",
   "author": "Vladimir Krivosheev",
@@ -11,9 +11,9 @@
     "*.js"
   ],
   "dependencies": {
-    "@maitham/app-builder-lib": "workspace:*"
+    "@adeptlabs/app-builder-lib": "workspace:*"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@maitham"
+    "registry": "https://npm.pkg.github.com/@adeptlabs"
   }
 }

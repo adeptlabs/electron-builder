@@ -1,5 +1,5 @@
 {
-  "name": "@maitham/electron-builder",
+  "name": "@adeptlabs/electron-builder",
   "description": "A complete solution to package and build a ready for distribution Electron app for MacOS, Windows and Linux with “auto update” support out of the box",
   "version": "23.0.0",
   "main": "out/index.js",
@@ -15,7 +15,7 @@
     "node": ">=8.12.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@maitham"
+    "registry": "https://npm.pkg.github.com/@adeptlabs"
   },
   "keywords": [
     "electron",
@@ -49,12 +49,12 @@
   "homepage": "https://github.com/electron-userland/electron-builder",
   "dependencies": {
     "@types/yargs": "^15.0.5",
-    "@maitham/app-builder-lib": "workspace:*",
+    "@adeptlabs/app-builder-lib": "workspace:*",
     "bluebird-lst": "^1.0.9",
-    "@maitham/builder-util": "workspace:*",
-    "@maitham/builder-util-runtime": "workspace:*",
+    "@adeptlabs/builder-util": "workspace:*",
+    "@adeptlabs/builder-util-runtime": "workspace:*",
     "chalk": "^4.1.0",
-    "@maitham/dmg-builder": "workspace:*",
+    "@adeptlabs/dmg-builder": "workspace:*",
     "fs-extra": "^9.0.1",
     "is-ci": "^2.0.0",
     "lazy-val": "^1.0.4",
